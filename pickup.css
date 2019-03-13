@@ -1,0 +1,146 @@
+.intro {
+    color: solid grey;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+}
+
+body {
+    background-image: url("pickup.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 960px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.postcard {
+    position: relative;
+    max-width: 350px;
+    margin: 350px auto 0px;
+    padding: 20px;
+    background: rgba(231, 211, 211, 0.9);
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+    font-family: 'Comic Sans MS';
+    color: #605756;
+    clear: both;
+    text-align: right;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row input[type="text"], .form-row input[type="email"], .form-row textarea {
+    width: 100%;
+    padding: 0 10px;
+    line-height: 35px;
+    border-width: 0;
+    outline: none;
+    background: transparent url(https://html5book.ru/wp-content/uploads/2016/12/bg-form.png) bottom left repeat-x;
+    background-size: 8px 35px;
+    font-family: 'Comic Sans MS';
+}
+
+.form-row textarea {
+    background-attachment: local;
+    background-repeat: repeat;
+    resize: none;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #F67CA5;
+    border-width: 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Comic Sans MS';
+    font-size: 13px;
+    letter-spacing: 1px;
+    background: #F67CA5;
+    text-transform: uppercase;
+    transition: 1s cubic-bezier(.165, .84, .44, 1);
+}
+
+.form-row input[type=submit]:hover {
+    background: #C42061;
+}
+
+.formdiv {
+    position: absolute;
+    top: 220px;
+    right: 0;
+}
+
+.headborder {
+    border: 10px solid transparent;
+    border-image: 7 repeating-linear-gradient(135deg, red, orange, yellow, green, aqua, blue, purple);
+    background: #F67CA5;
+    opacity: 0.6;
+}
+.sidebar {
+    float: left;
+    position: relative;
+    max-width: 350px;
+    margin: 50px auto 0px;
+    padding: 20px;
+    background: rgba(231, 211, 211, 0.8);
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+    font-family: 'Comic Sans MS';
+    color: #605756;
+    clear: both;
+    text-align: left;
+}
+
+.inner-sidebar {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header{
+    float: left;
+    position: relative;
+    max-width: 350px;
+    margin: 50px auto 0px;
+    padding: 20px;
+    background: rgba(231, 211, 211, 0.8);
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+    font-family: 'Comic Sans MS';
+    color: #605756;
+    clear: both;
+    text-align: left;
+}
+
+.content{
+    width: 730px;
+    height: 750px;
+    float: left;
+    padding-left: 200px;
+    padding-right: 5px;
+
+}
+.subcontent{
+    width: 730px;
+    height: 750px;
+    float: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(135deg, #C42061, #C42061 10px, transparent 10px, transparent 20px, #FBCFDF 20px, #FBCFDF 30px, transparent 30px, transparent 40px);
+    font-family: 'Comic Sans MS';
+    color: black;
+    clear: both;
+    text-align: left;
+    background: rgba(231, 211, 211, 0.8);
+
+
+}
